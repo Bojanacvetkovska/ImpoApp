@@ -17,6 +17,12 @@ public class Impoappcontroller {
         return app.cm(inch0);
     }
 
+    @RequestMapping("metar")
+
+    public double m(@RequestParam double yard){
+        return app.m(yard);
+    }
+
 
 
 }
